@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="dashboard-menu">
+          <a class="logo" href="#">
+            <img src="assets/icons/view-dashboard.svg" alt="Dashboard" />
+            <h1>Dashboard</h1>
+          </a>
+          <nav class="main-nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#"
+                  ><span class="icon"
+                    ><img src="assets/icons/home.svg" alt="" /></span
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#"
+                  ><span class="icon"
+                    ><img src="assets/icons/account-box.svg" alt="" /></span
+                  >Profile</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#"
+                  ><span class="icon"
+                    ><img src="assets/icons/message.svg" alt="" /></span
+                  >Messages</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#"
+                  ><span class="icon"
+                    ><img src="assets/icons/history.svg" alt="" /></span
+                  >History</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#"
+                  ><span class="icon"
+                    ><img
+                      src="assets/icons/text-box-multiple.svg"
+                      alt="" /></span
+                  >Tasks</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#"
+                  ><span class="icon"
+                    ><img src="assets/icons/account-group.svg" alt="" /></span
+                  >Communities</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <nav class="secondary">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#"
+                  ><span class="icon"
+                    ><img src="assets/icons/cog.svg" alt="" /></span
+                  >Setting</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#"
+                  ><span class="icon"
+                    ><img src="assets/icons/help-box.svg" alt="" /></span
+                  >Support</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#"
+                  ><span class="icon"
+                    ><img src="assets/icons/shield-check.svg" alt="" /></span
+                  >privacy</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </aside>
+      <header class="top-bar">
+        <form role="search" class="search">
+          <label for="searchInput" class="search-icon-wrapper icon"
+            ><img src="assets/icons/magnify.svg" alt="Search Icon"
+          /></label>
+          <input type="text" id="searchInput" />
+        </form>
+        <div class="topbar-actions">
+          <button class="icon-button icon" aria-label="Notifications">
+            <img src="assets/icons/bell-ring.svg" alt="Notifications" />
+          </button>
+          <img
+            class="avatar"
+            src="assets/images/profile 1.png"
+            alt="Yue Nagumo"
+          />
+          <span class="username">Yue Nagumo</span>
+        </div>
+      </header>
+      <main class="main">
+        <section class="welcome">
+          <div class="welcome-user">
+            <img
+              class="avatar avatar-lg"
+              src="assets/images/profile 1.png"
+              alt="Yue Nagumo"
+            />
+            <div>
+              <p class="greeting">Welcome back</p>
+              <h1>Yue Nagumo (@yue)</h1>
+            </div>
+          </div>
+          <div class="quick-actions">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </section>
+        <section class="projects">
+          <h2>Your Projects</h2>
+          <div class="project-grid">
+            <article class="project-card">
+              <h3>Super Cool Project</h3>
+              <p>
+                Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin
+                nibh erat, id facilisis felis accumsan nec.
+              </p>
+              <div class="card-action">
+                <button aria-label="Star">
+                  <img src="assets/icons/star-plus-outline.svg" alt="" />
+                </button>
+                <button aria-label="View">
+                  <img src="assets/icons/eye-plus-outline.svg" alt="" />
+                </button>
+                <button aria-label="Share">
+                  <img src="assets/icons/source-fork.svg" alt="" />
+                </button>
+              </div>
+            </article>
+            <article class="project-card">
+              <h3>Super Cool Project</h3>
+              <p>
+                Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin
+                nibh erat, id facilisis felis accumsan nec.
+              </p>
+              <div class="card-action">
+                <button aria-label="Star">
+                  <img src="assets/icons/star-plus-outline.svg" alt="" />
+                </button>
+                <button aria-label="View">
+                  <img src="assets/icons/eye-plus-outline.svg" alt="" />
+                </button>
+                <button aria-label="Share">
+                  <img src="assets/icons/source-fork.svg" alt="" />
+                </button>
+              </div>
+            </article>
+            <article class="project-card">
+              <h3>Super Cool Project</h3>
+              <p>
+                Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin
+                nibh erat, id facilisis felis accumsan nec.
+              </p>
+              <div class="card-action">
+                <button aria-label="Star">
+                  <img src="assets/icons/star-plus-outline.svg" alt="" />
+                </button>
+                <button aria-label="View">
+                  <img src="assets/icons/eye-plus-outline.svg" alt="" />
+                </button>
+                <button aria-label="Share">
+                  <img src="assets/icons/source-fork.svg" alt="" />
+                </button>
+              </div>
+            </article>
+          </div>
+        </section>
+        <div class="right-column">
+          <section class="announcements">
+            <h2>Announcements</h2>
+            <article>
+              <h3>Site Maintenance</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Explicabo sit inventore dignissimos amet placeat quaerat
+                accusamus repellat dicta! Doloremque, quia!
+              </p>
+            </article>
+          </section>
+          <section class="trending">
+            <h2>Trending</h2>
+            <article class="trending-item">
+              <img
+                src="assets/images/profile 1.png"
+                class="avatar"
+                alt="Yue Nagumo"
+              />
+              <div>
+                <p class="handle">@yue</p>
+                <p class="tags">World Peace Builder</p>
+              </div>
+            </article>
+          </section>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
